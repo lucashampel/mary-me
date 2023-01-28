@@ -54,11 +54,6 @@ class ViewController: UIViewController {
         ])
     }
     
-//    Futura
-//    Geeza Pro
-//    Hiragino Sans
-//    Papyrus
-//    Times New Roman
     
     @objc func tappedButton(){
         let randomX = CGFloat.random(in: 20...350)
@@ -69,10 +64,6 @@ class ViewController: UIViewController {
             self.view.layoutIfNeeded()
         }
         
-        UIFont.familyNames.forEach({ familyName in
-            let fontNames = UIFont.fontNames(forFamilyName: familyName)
-            print(familyName, fontNames)
-        })
     }
     
     @objc func tappedNoButton(){
